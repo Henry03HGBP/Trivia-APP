@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+</head>
+<body>
+ <style>
+    *{
+        transition: all 0.3s;
+        font-family: Calbri;
+        font-size: 120%;
+
+    }
+   body{
+    background: aqua;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   }
+   .contenedor{
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+ .encabezado{
+    background-color: white;
+    min-width: 300px;
+    width: 70%;
+ }
+ .categoria{
+    opacity: 0.3;
+    text-align: left;
+ }
+ .pregunta{
+    padding: 10px;
+ }
+ .imagen{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+ }
+ .btn{
+    background: white;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+ }
+ .btn:hover{
+    background-color: gold;
+    cursor: pointer;
+    transform: scale(1.05);
+ }
+ .imagen{
+    width: 300px;
+    padding: 100px;
+ }
+ </style> 
+ 
+ <div class="contenedor">
+    <div class="encabezado">
+    <div class="categoria" id="categoria">
+      Música
+    </div>
+    <div class="pregunta" id="pregunta">
+        ¿Cuáles son las notas que se encuentran dentro del siguiente pentagrama?  
+    </div>
+    <img src="/images/fa-la-do.jpg" class="imagen" id="imagen">
+ </div>
+ <div class="btn" id="btn1" onclick="oprimir_btn(0)">
+    a) Fa, La Do
+ </div>
+ <div class="btn" id="btn2"  onclick="oprimir_btn(1)">
+    b) Sib, Do, Fa
+ </div>
+ <div class="btn" id="btn3"  onclick="oprimir_btn(2)">
+    c) Re Fa La
+ </div>
+ <div class="btn" id="btn4"  onclick="oprimir_btn(3)">
+    d) La#, Re, Si
+ </div>
+ </div>
+ 
+ <script src="app.js"></script>
+</body>
+</html>

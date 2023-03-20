@@ -1,0 +1,78 @@
+[
+    {
+      "pregunta":"¿Cuáles son las notas que se encuentran dentro del siguiente pentagrama?",
+      "respuesta":"Fa, La Do",
+      "incorrecta1":"Sib, Do, Fa",
+      "incorrecta2":"Re Fa La",
+      "incorrecta3":"La#, Re, Si",
+      "imagen":"fa-la-do.jpg"
+    },
+    {
+    "pregunta" : "¿Cuál es la escala que se muestra a continiación?",
+    "respuesta": "Sol",
+    "incorrecta1":"Si",
+    "incorrecta2":"Re,",
+    "incorrecta3":"Fa",
+    "incorrecta4":"Sib",
+    "imagen": "escala-re.jpg",
+    "objject fit": "cover"
+    },
+    {
+        "pregunta":"Cuáles son los nombres de los 8 grados de la escala?",
+        "respuesta":"Tónica, Subonica, Mediante, Subdominante, Dominante, Superdominante, Sensible, Octava",
+        "incorrecta1": "Primero, Segundo, Tercero, Cuarto, Quinto, Sexto, Septimo, Octavo",
+        "incorrecta2": "Do, Re, Mi, Fa, Sol, La, Si, Do",
+        "incorrecta3":"Tónioca, Da Capo, unisono, 3era, 4ta, 5ta, 6ta, adaggio"
+    },
+    {
+        "pregunta":"¿Qué notas se escuchan en el siguiente fragmento del himno de la alegría de Ludwing Van Beethoven",
+        "audio":"Fragmento-himno-de-la-alegria.mp3",
+        "respuesta":"Si, Do, Re, La, Sol",
+        "incorrecta1":"Mi, Fa, Sol, Do, Sol",
+        "incorrecta2":"Fa, Sol, La ,Si ,Fa",
+        "incorrecta3":"Re, Mi, Fa, Sol, Re"
+    },
+    {
+        "pregunta":"¿A que figura rítmica pertenece el sigiente silencio",
+        "respuesta":"Blanca o Mitad",
+        "incorrecta1":"Negra o Cuarto",
+        "incorrecta2":"Redonda o Unidad",
+        "incorrecta3":"Corchea u Octavo"
+    },
+    {
+        "pregunta":"¿Qué alteración causa en una partitura el bemol?",
+        "respuesta":"disminuye medio tono",
+        "incorrecta1":"Aumenta dos tonos",
+        "incorrecta2":"modifica el sonido dos semitonos en dirección ascendente",
+        "incorrecta3":"Elimina el efecto de las demás alterciones"
+    },
+    {
+        "pregunta":"¿Qué alteración causa en una partitura el sostenido?",
+        "respuesta":"Aumenta medio tono",
+        "incorrecta1":"Disminuye medio tono",
+        "incorrecta2":"Elimmina el efecto de las demás alteraciones",
+        "incorrecta3":"Modifica dos semitonos en dirección descendente"
+    },
+    {
+        "pregunta":"¿Qué es una partitura?",
+        "respuesta":"Es un documento manuscrito o impreso mediante un lenguaje propio formado por signos músicales",
+        "incorrecta1":"Es otro lenguje o idioma mendiante el cual nos expresamos",
+        "incorrecta2":"Son los simbolos que indican los silencios correspondientes de las figuras ritmicas",
+        "incorrecta3":"Ninguna de las anteriores"
+    },
+    {
+        "pregunta":"¿Qué es una clave?",
+        "respuesta":"Es el primer símbolo que se coloca sobre el pentagrama. Indica qué nota se representa por cada línea y espacio disponible en el pentagrama",
+        "incorrecta1":"Es un instrumento músical de percusión formado por un par de bastones cilíndricos",
+        "incorrecta2":"Son los simbolos que indican los silencios correspodientes a las figuras ritmicas",
+        "incorrecta3":"Es el conjunto de lineas rectas sobre las cuales se ponen las notas"
+    },
+    {
+        "pregunta":"¿Qué notas se escuchan en el sguiente audio?",
+        "audio":"Do-Fa-Mib-Reb-Re-Sol.mp3",
+        "respuesta":"Do, Fa, Mib, Reb, Re, Sol",
+        "incorrecta1":"Si, La, Mib, Re, Fa#",
+        "incorrecta2":"La, Sib, Do#, Mi, Sol#",
+        "incorrecta3":"Sol, Fa, Reb, La#, Sib"
+    }
+]
